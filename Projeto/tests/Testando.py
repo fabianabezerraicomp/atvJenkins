@@ -9,8 +9,7 @@ class Testando(unittest.TestCase):
 
         c = CelsiueToFarenheit()
         fahrenheitResultado = c.convert(celsius)
-        print("aqui")
-        print(fahrenheitResultado)
+        
         self.assertEqual(fahrenheitEsperado, fahrenheitResultado)
 
     def test_conversao_errada(self):
