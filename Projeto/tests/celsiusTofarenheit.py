@@ -5,5 +5,5 @@ class CelsiueToFarenheit:
 
     def convert(self, celsius):
         fahrenheit = (celsius * 1.8) + 32
-        return fahrenheit
+        return fahrenhei
 
