@@ -17,6 +17,6 @@ class Testando(unittest.TestCase):
         fahrenheitEsperado = 105.8
         fahrenheitResultado = 106
 
-        self.assertNotEqual(fahrenheitResultado, fahrenheitEsperado)
+        self.assertEqual(fahrenheitResultado, fahrenheitEsperado)
 
 
